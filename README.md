@@ -8,9 +8,6 @@ The objective was to build an AI-powered conversational assistant capable of rec
 
 Backend live link for testing : https://shl-assessment-recommender-9czk.onrender.com/docs#/default/chat_api_chat_post 
 
-Github Repo Link containing live demo : https://github.com/winterhell823/testing.git 
-
-
 2. Design Choices
 I adopted a Retrieval-Augmented Generation (RAG) architecture instead of relying solely on an LLM. Since recommendations must come exclusively from SHL catalog data, retrieval was treated as the source of truth and the LLM was used only for conversational reasoning and response generation.
 Key design decisions:
